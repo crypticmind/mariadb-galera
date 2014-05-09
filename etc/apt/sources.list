@@ -1,0 +1,24 @@
+deb http://mirror.despegar.it/ubuntu/ trusty main restricted
+deb-src http://mirror.despegar.it/ubuntu/ trusty main restricted
+deb http://mirror.despegar.it/ubuntu/ trusty-updates main restricted
+deb-src http://mirror.despegar.it/ubuntu/ trusty-updates main restricted
+deb http://mirror.despegar.it/ubuntu/ trusty universe
+deb-src http://mirror.despegar.it/ubuntu/ trusty universe
+deb http://mirror.despegar.it/ubuntu/ trusty-updates universe
+deb-src http://mirror.despegar.it/ubuntu/ trusty-updates universe
+deb http://mirror.despegar.it/ubuntu/ trusty multiverse
+deb-src http://mirror.despegar.it/ubuntu/ trusty multiverse
+deb http://mirror.despegar.it/ubuntu/ trusty-updates multiverse
+deb-src http://mirror.despegar.it/ubuntu/ trusty-updates multiverse
+deb http://mirror.despegar.it/ubuntu/ trusty-backports main restricted universe multiverse
+deb-src http://mirror.despegar.it/ubuntu/ trusty-backports main restricted universe multiverse
+deb http://mirror.despegar.it/ubuntu trusty-security main restricted
+deb-src http://mirror.despegar.it/ubuntu trusty-security main restricted
+deb http://mirror.despegar.it/ubuntu trusty-security universe
+deb-src http://mirror.despegar.it/ubuntu trusty-security universe
+deb http://mirror.despegar.it/ubuntu trusty-security multiverse
+deb-src http://mirror.despegar.it/ubuntu trusty-security multiverse
+
+deb http://mirror.stshosting.co.uk/mariadb/repo/10.0/ubuntu trusty main
+
+deb http://repo.percona.com/apt trusty main
