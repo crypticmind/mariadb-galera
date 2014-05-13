@@ -1,0 +1,12 @@
+[mysqld]
+wsrep_provider                          = /usr/lib/galera/libgalera_smm.so
+wsrep_provider_options                  = "gcache.size=256M; gcache.page_size=128M"
+wsrep_cluster_address                   = gcomm://
+wsrep_sst_method                        = xtrabackup
+wsrep_sst_auth                          = "root:1234"
+wsrep_cluster_name                      = "CLUSTER NAME"
+# wsrep_slave_threads                   = 16
+# wsrep_node_address                    = "maria1"
+# wsrep_node_name                       = "maria1"
+# wsrep_node_incoming_address           = 192.168.10.101
+# wsrep_sst_receive_address             = 192.168.10.101
